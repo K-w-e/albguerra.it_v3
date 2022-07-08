@@ -1,58 +1,67 @@
-@font-face{
+@font-face {
     font-family: Roboto;
     src: url(../font/Roboto-Black.ttf)
 }
 
-*{
+* {
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-p{
+p {
     margin: 0;
 }
 
-.container{
+.header, .proj-container {
     margin: 30px;
 }
 
-.header{
+.header {
     margin-bottom: 30px;
 }
 
-.bio{
+.bio {
     width: 70%;
 }
 
-.proj{
+.proj {
     margin-bottom: 30px;
 }
 
-.proj img{
+.proj img {
     width: auto;
 }
 
-.proj-info{
+.proj-info {
     width: 70%;
 }
 
-.footer-block{
+.footer {
+    background-color: grey;
+    width: 100%;
+    padding: 30px;
+}
+
+.footer-block {
     margin-bottom: 30px;
 }
 
-.footer-block-title{
+.footer-block-title {
     margin-bottom: 20px;
 }
 
 @media screen and (max-width: 769px) {
-    .bio{
+    .bio {
         width: 100%;
     }
 
-    .proj img{
+    .proj img {
         width: 100%;
     }
 
-    .proj-info{
+    .proj-info {
         width: 100%;
     }
 }
