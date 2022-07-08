@@ -1,0 +1,58 @@
+@font-face{
+    font-family: Roboto;
+    src: url(../font/Roboto-Black.ttf)
+}
+
+*{
+    font-family: Roboto;
+}
+
+p{
+    margin: 0;
+}
+
+.container{
+    margin: 30px;
+}
+
+.header{
+    margin-bottom: 30px;
+}
+
+.bio{
+    width: 70%;
+}
+
+.proj{
+    margin-bottom: 30px;
+}
+
+.proj img{
+    width: auto;
+}
+
+.proj-info{
+    width: 70%;
+}
+
+.footer-block{
+    margin-bottom: 30px;
+}
+
+.footer-block-title{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 769px) {
+    .bio{
+        width: 100%;
+    }
+
+    .proj img{
+        width: 100%;
+    }
+
+    .proj-info{
+        width: 100%;
+    }
+}
